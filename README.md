@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🔒 JSON Parser & Formatter
 
-## Getting Started
+> Privacy-first JSON parser and formatter. All data processed locally in your browser. No server uploads. Works offline.
 
-First, run the development server:
+[![Live Demo](https://img.shields.io/badge/demo-live-success)](https://your-deployment-url.vercel.app)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+
+## ✨ Features
+
+- 🔒 **Privacy First** - All data processed locally, nothing uploaded to servers
+- ⚡ **Lightning Fast** - Static site with global CDN distribution
+- 📱 **PWA Support** - Install as desktop/mobile app, works offline
+- 🔗 **URL Sharing** - Share JSON via compressed URL
+- ✅ **Schema Validation** - Validate JSON against JSON Schema
+- 🎨 **Multiple Themes** - GitHub Light, Solarized Light, Paper (Minimal)
+- 💯 **100% Open Source** - Transparent and trustworthy
+
+## 🚀 Live Demo
+
+**[Try it now →](https://your-deployment-url.vercel.app)**
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 16 (App Router)
+- **Language**: TypeScript
+- **Styling**: CSS Modules
+- **Compression**: lz-string
+- **Validation**: Ajv (JSON Schema validator)
+- **Icons**: Lucide React
+- **Syntax Highlighting**: PrismJS
+
+## 🏃 Quick Start
 
 ```bash
+# Clone the repository
+git clone https://github.com/weekdmond/json-parser.git
+
+# Navigate to project directory
+cd json-parser
+
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/weekdmond/json-parser)
 
-## Learn More
+## 🔐 Privacy & Security
 
-To learn more about Next.js, take a look at the following resources:
+- ✅ **No Server Processing** - All operations happen in your browser
+- ✅ **No Data Collection** - We don't track or store your data
+- ✅ **No Analytics** - Your privacy is our priority
+- ✅ **Open Source** - Audit the code yourself
+- ✅ **Offline Capable** - Works without internet connection
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🤝 Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## Deploy on Vercel
+## 📝 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is licensed under the MIT License.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌟 Show Your Support
+
+If you find this tool useful, please ⭐ star the repository!
+
+---
+
+**Made with ❤️ for developers**
