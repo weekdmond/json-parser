@@ -2,7 +2,7 @@
 
 > Privacy-first JSON parser and formatter. All data processed locally in your browser. No server uploads. Works offline.
 
-[![Live Demo](https://img.shields.io/badge/demo-live-success)](https://your-deployment-url.vercel.app)
+[![Deploy to Cloudflare Pages](https://img.shields.io/badge/Cloudflare-Pages-orange)](https://json-parser.pages.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
@@ -18,7 +18,7 @@
 
 ## 🚀 Live Demo
 
-**[Try it now →](https://your-deployment-url.vercel.app)**
+**[Try it now →](https://json-parser.pages.dev)**
 
 ## 🛠️ Tech Stack
 
