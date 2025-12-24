@@ -114,20 +114,6 @@ export default function JsonWorkspaceJP() {
         }
     };
 
-    const handleExportExcel = () => {
-        try {
-            if (!output) return;
-            const data = JSON.parse(output);
-            if (Array.isArray(data)) {
-                exportToCSV(data, "data.csv");
-            } else {
-                // Try to wrap in array or export keys
-                exportToCSV([data], "data.csv");
-            }
-        } catch (e) {
-            setError("CSVエクスポートはJSON配列またはオブジェクトが必要です。");
-        }
-    };
 
     return (
         <div className={styles.workspace}>
@@ -184,10 +170,6 @@ export default function JsonWorkspaceJP() {
                         <button className={styles.button} onClick={handleMinify}>
                             <Minimize size={14} />
                             圧縮
-                        </button>
-                        <button className={styles.button} onClick={handleExportExcel} title="CSVダウンロード">
-                            <FileSpreadsheet size={14} />
-                            CSV保存
                         </button>
                         <button className={styles.button} onClick={handleCopy}>
                             <Copy size={14} />
