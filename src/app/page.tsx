@@ -28,7 +28,10 @@ export default function Home() {
           <Github size={16} />
           Star on GitHub
         </a>
-        <span style={{ display: "flex", alignItems: "center", gap: "0.25rem" }}>
+        <a href="/jp" style={{ marginLeft: "10px", display: "flex", alignItems: "center", gap: "5px" }}>
+          Of 🇯🇵 日本語版
+        </a>
+        <span style={{ display: "flex", alignItems: "center", gap: "0.25rem", marginLeft: "auto" }}>
           Made with <Heart size={14} fill="#e74c3c" color="#e74c3c" /> for developers
         </span>
       </footer>
