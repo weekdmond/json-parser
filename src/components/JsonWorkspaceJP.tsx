@@ -5,8 +5,8 @@ import Editor from "react-simple-code-editor";
 import { highlight, languages } from "prismjs";
 import "prismjs/components/prism-json";
 import { formatJson, minifyJson, validateWithSchema } from "../utils/jsonHelpers";
-import { toHalfWidth, exportToCSV } from "../utils/japaneseHelpers";
-import { Trash2, Copy, Minimize, ShieldCheck, Share2, AlertCircle, FileSpreadsheet, Wand2 } from "lucide-react";
+import { toHalfWidth } from "../utils/japaneseHelpers";
+import { Trash2, Copy, Minimize, ShieldCheck, Share2, AlertCircle, Wand2 } from "lucide-react";
 import LZString from "lz-string";
 import styles from "../app/page.module.css";
 
