@@ -36,40 +36,46 @@ export default function HomeJP() {
                 </div>
                 <JsonWorkspaceJP />
 
-                <section style={{ marginTop: "3rem", padding: "2rem", backgroundColor: "#f8f9fa", borderRadius: "8px", border: "1px solid #e9ecef" }}>
-                    <h2 style={{ fontSize: "1.25rem", color: "#2c3e50", marginBottom: "1.5rem", borderBottom: "2px solid #28a745", paddingBottom: "0.5rem", display: "inline-block" }}>
-                        プライバシーおよびセキュリティについて
-                    </h2>
-                    <p style={{ marginBottom: "1rem", lineHeight: 1.6 }}>
-                        当サイト（以下「本ツール」）は、ユーザーのプライバシーとデータセキュリティを最優先に設計されています。
-                    </p>
-                    <div style={{ display: "grid", gap: "1.5rem" }}>
-                        <div>
-                            <h3 style={{ fontSize: "1rem", fontWeight: "bold", marginBottom: "0.5rem", color: "#0056b3" }}>1. 完全クライアントサイド処理 (Client-side Processing)</h3>
-                            <p style={{ fontSize: "0.9rem", color: "#555", lineHeight: 1.6 }}>
-                                本ツールは、JavaScriptを用いてすべてのデータ処理（整形、解析、圧縮等）をお客様のブラウザ（ローカル環境）でのみ実行します。
-                            </p>
-                        </div>
-                        <div>
-                            <h3 style={{ fontSize: "1rem", fontWeight: "bold", marginBottom: "0.5rem", color: "#0056b3" }}>2. サーバーへの送信なし (No Server Transmission)</h3>
-                            <p style={{ fontSize: "0.9rem", color: "#555", lineHeight: 1.6 }}>
-                                入力されたJSONデータやテキストが、当方のサーバーや第三者のサーバーに送信・保存されることは一切ありません。インターネット接続が切断された状態（オフライン）でも動作することが、その証明です。
-                            </p>
-                        </div>
-                        <div>
-                            <h3 style={{ fontSize: "1rem", fontWeight: "bold", marginBottom: "0.5rem", color: "#0056b3" }}>3. ログの不保持 (No Data Logging)</h3>
-                            <p style={{ fontSize: "0.9rem", color: "#555", lineHeight: 1.6 }}>
-                                サーバーサイドのデータベースを持たないため、お客様の入力データを保存・閲覧することは技術的に不可能です。
-                            </p>
-                        </div>
-                        <div>
-                            <h3 style={{ fontSize: "1rem", fontWeight: "bold", marginBottom: "0.5rem", color: "#0056b3" }}>4. 利用目的</h3>
-                            <p style={{ fontSize: "0.9rem", color: "#555", lineHeight: 1.6 }}>
-                                社内ドキュメント、APIレスポンス、設定ファイルなどの機密情報を含むデータでも、安心してご利用いただけます。
-                            </p>
+                <details style={{ marginTop: "2rem", backgroundColor: "#f8f9fa", borderRadius: "8px", border: "1px solid #e9ecef", overflow: "hidden" }}>
+                    <summary style={{ padding: "1rem", cursor: "pointer", fontWeight: "bold", color: "#2c3e50", outline: "none", display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+                        <span style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
+                            <Shield size={16} color="#28a745" />
+                            プライバシーおよびセキュリティについて（詳細）
+                        </span>
+                        <span style={{ fontSize: "0.8rem", color: "#6c757d", fontWeight: "normal" }}>クリックして展開</span>
+                    </summary>
+                    <div style={{ padding: "0 1.5rem 1.5rem 1.5rem", borderTop: "1px solid #e9ecef" }}>
+                        <p style={{ margin: "1rem 0", fontSize: "0.9rem", color: "#666" }}>
+                            当サイトは、ユーザーのプライバシーとデータセキュリティを最優先に設計されています。
+                        </p>
+                        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem" }}>
+                            <div>
+                                <h3 style={{ fontSize: "0.9rem", fontWeight: "bold", marginBottom: "0.25rem", color: "#0056b3" }}>1. クライアントサイド処理</h3>
+                                <p style={{ fontSize: "0.85rem", color: "#555", lineHeight: 1.5 }}>
+                                    JavaScriptを用いて、すべての処理をブラウザ内のみで実行します。
+                                </p>
+                            </div>
+                            <div>
+                                <h3 style={{ fontSize: "0.9rem", fontWeight: "bold", marginBottom: "0.25rem", color: "#0056b3" }}>2. サーバー送信なし</h3>
+                                <p style={{ fontSize: "0.85rem", color: "#555", lineHeight: 1.5 }}>
+                                    入力データが外部サーバーに送信・保存されることは一切ありません。
+                                </p>
+                            </div>
+                            <div>
+                                <h3 style={{ fontSize: "0.9rem", fontWeight: "bold", marginBottom: "0.25rem", color: "#0056b3" }}>3. ログの不保持</h3>
+                                <p style={{ fontSize: "0.85rem", color: "#555", lineHeight: 1.5 }}>
+                                    保存用データベースを持たないため、データの閲覧は技術的に不可能です。
+                                </p>
+                            </div>
+                            <div>
+                                <h3 style={{ fontSize: "0.9rem", fontWeight: "bold", marginBottom: "0.25rem", color: "#0056b3" }}>4. 利用目的</h3>
+                                <p style={{ fontSize: "0.85rem", color: "#555", lineHeight: 1.5 }}>
+                                    機密情報を含むドキュメントやAPIレスポンスも安心して扱えます。
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </section>
+                </details>
             </main>
             <footer className={styles.footer}>
                 <div style={{ marginBottom: "1rem", color: "#666", fontSize: "0.9rem", textAlign: "center", padding: "0 1rem" }}>
