@@ -5,13 +5,13 @@ import { Braces, Shield, Github, Heart } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "JSON整形・解析ツール (完全オフライン/高セキュリティ) - JSON Formatter Japan",
-    description: "完全オフライン動作で安全なJSON整形ツール。Excel/CSV出力対応、全角数字の自動修正機能付き。サーバーへの送信は一切ありません。",
-    keywords: ["JSON整形", "JSON解析", "JSON Formatter", "JSON Validator", "JSON CSV変換", "オフライン", "セキュリティ"],
+    title: "JSON整形・解析ツール (完全オフライン/高セキュリティ) - JSON Formatter & Validator",
+    description: "登録不要・完全オフラインのJSON整形（フォーマット）ツール。データはサーバーに送信されず、ブラウザ内で安全に処理されます。JSONのバリデーション、圧縮、比較（Diff）にも対応。日本語対応で高速動作。",
+    keywords: ["JSON整形", "JSON解析", "JSONパース", "JSONフォーマット", "JSONバリデーション", "完全オフライン", "登録不要", "サーバー送信なし"],
     openGraph: {
         locale: 'ja_JP',
-        title: 'JSON整形・解析ツール (完全オフライン)',
-        description: 'インストール不要・完全オフライン動作。Excel出力対応の日本製JSONツール。',
+        title: 'JSON整形・解析ツール (完全オフライン/高セキュリティ)',
+        description: '登録不要・完全オフライン。データはサーバーに送信されず、ブラウザ内で安全に処理されます。',
     }
 };
 
