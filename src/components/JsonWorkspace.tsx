@@ -160,6 +160,7 @@ export default function JsonWorkspace() {
                             style={{
                                 fontFamily: '"Fira code", "Fira Mono", monospace',
                                 fontSize: 13,
+                                lineHeight: 1.5,
                             }}
                             textareaClassName={styles.editorTextarea}
                             placeholder="Paste your JSON here..."
@@ -174,6 +175,7 @@ export default function JsonWorkspace() {
                             style={{
                                 fontFamily: '"Fira code", "Fira Mono", monospace',
                                 fontSize: 13,
+                                lineHeight: 1.5,
                             }}
                             textareaClassName={styles.editorTextarea}
                             placeholder="Paste your JSON Schema here..."
@@ -221,6 +223,7 @@ export default function JsonWorkspace() {
                         style={{
                             fontFamily: '"Fira code", "Fira Mono", monospace',
                             fontSize: 13,
+                            lineHeight: 1.5,
                         }}
                     />
                 </div>
