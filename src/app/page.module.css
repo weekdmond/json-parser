@@ -127,6 +127,10 @@
   text-shadow: none !important;
 }
 
+.editor :global(textarea) {
+  padding: 1rem !important;
+}
+
 .error {
   position: absolute;
   bottom: 0;
