@@ -5,7 +5,7 @@ export const dynamic = 'force-static'
 export default function sitemap(): MetadataRoute.Sitemap {
     return [
         {
-            url: 'https://jsoncd.com',
+            url: 'https://jsongp.com',
             lastModified: new Date(),
             changeFrequency: 'weekly',
             priority: 1,

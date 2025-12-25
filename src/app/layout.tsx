@@ -3,7 +3,7 @@ import "./globals.css";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://jsoncd.com'),
+  metadataBase: new URL('https://jsongp.com'),
   title: "JSON Parser & Formatter - Secure, Offline & Fast (No Server)",
   description: "Privacy-first JSON parser and formatter. All data processed locally in your browser. No server uploads. Works offline. Free, open-source, and lightning fast.",
   keywords: ["json parser", "json formatter", "json validator", "offline json tool", "privacy-first", "no server", "secure json"],
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://jsoncd.com',
+    url: 'https://jsongp.com',
     siteName: 'JSON Parser & Formatter',
     title: 'JSON Parser & Formatter - Privacy-First Online Tool',
     description: 'Free online JSON parser and formatter. All processing happens locally in your browser. No data uploads, works offline, open-source.',
@@ -77,7 +77,7 @@ export default function RootLayout({
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#4c9ed9" />
         <link rel="apple-touch-icon" href="/icon-192.png" />
-        <link rel="canonical" href="https://jsoncd.com" />
+        <link rel="canonical" href="https://jsongp.com" />
 
         {/* Structured Data */}
         <script
@@ -87,7 +87,7 @@ export default function RootLayout({
               '@context': 'https://schema.org',
               '@type': 'WebApplication',
               name: 'JSON Parser & Formatter',
-              url: 'https://jsoncd.com',
+              url: 'https://jsongp.com',
               description: 'Privacy-first JSON parser and formatter. All data processed locally in your browser.',
               applicationCategory: 'DeveloperApplication',
               operatingSystem: 'Any',

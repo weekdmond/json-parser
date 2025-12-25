@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
             userAgent: '*',
             allow: '/',
         },
-        sitemap: 'https://jsoncd.com/sitemap.xml',
+        sitemap: 'https://jsongp.com/sitemap.xml',
     }
 }
